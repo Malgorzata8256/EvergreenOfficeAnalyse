@@ -46,7 +46,7 @@ The dataset consists of **shipped orders** across four main tables:
 - **Geography Table:** Regional and provincial data.
 - **Dates Table:** Includes formatted date dimensions to support time-based analysis.
 
-  ![Database structure schema]()
+  ![Database structure schema](Visuals/Evergreen_schema.png)
 
 ### **Key Data Transformations**
 
