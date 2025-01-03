@@ -5,11 +5,19 @@
 ## **Table of Contents**
 
 1. [Project Background](#project-background)
-2. [Data Structure](#data-structure)
-3. [Executive Summary](#executive-summary)
-4. [Insights Deep Dive](#insights-deep-dive)
+   - [Company Context](#company-context)
+   - [Key Focus Areas](#key-focus-areas)
+   - [Data Structure](#data-structure)
+2. [Executive Summary](#executivesummary)
+   - [Overview of Findings](#overview-of-findings)
+   - [Insights Deep Dive](#insightsdeepdive)
+     - [Sales Trends](#sales-trends)
+     - [Product Performance](#product-performance)
+     - [Customer Distribution](#customer-distribution)
+     - [Regional Comparisons](#regional-comparisons)
 6. [Recommendations](#recommendations)
 7. [Assumptions and Caveats](#assumptions-and-caveats)
+
 
 ---
 
@@ -27,8 +35,9 @@ Evergreen holds extensive data on sales, operational efficiency, product offerin
 This analysis provides insights and recommendations in the following domains:
 - **Sales Trends:** Evaluating historical sales patterns with a focus on revenue, order volume, and average order value.
 - **Product Performance:** Conducting a detailed analysis of product categories and individual product success, assessing contributions to revenue and order volume over time.
-- **Regional Comparisons:** Examining how different regions contribute to overall performance, including sales, product preferences, and growth trends.
 - **Customer Distribution:** Analyzing customer segmentation by type and geography, focusing on shifts in customer behavior and purchasing trends.
+- **Regional Comparisons:** Examining how different regions contribute to overall performance, including sales, product preferences, and growth trends.
+
 
 An interactive Power BI dashboard showcasing these insights is available [here](https://app.powerbi.com/reportEmbed?reportId=d6f8ba80-15d9-4cb6-8294-d6fe67e4b544&autoAuth=true&ctid=18a34f25-7887-4c8e-9e8b-1916ddf307d5).
 
