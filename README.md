@@ -8,7 +8,7 @@
    - [Company Context](#company-context)
    - [Key Focus Areas](#key-focus-areas)
    - [Data Structure](#data-structure)
-2. [Project Background](#executive-summary)
+2. [Executive Summary](#executive-summary)
    - [Overview of Findings](#overview-of-findings)
    - [Insights Deep Dive](#insights-deep-dive)
      - [Sales Trends](#sales-trends)
