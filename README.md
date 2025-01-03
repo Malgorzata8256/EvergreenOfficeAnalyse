@@ -32,8 +32,6 @@ This analysis provides insights and recommendations in the following domains:
 
 An interactive Power BI dashboard showcasing these insights is available here.
 
-!!!!! Technical stuff!!!!
-
 ---
 
 ## **Data Structure**
@@ -152,4 +150,4 @@ Below is the overview page from PowerBI dashboard and more examples are included
 
 **Sales Calculation Discrepancies:** It was noted that the formula Unit price * Quantity - Discount + Shipping cost did not always align with the recorded SALES values. Efforts were made to address this inconsistency in the final dataset.
 
-Note: The data used in this report is fictional and sourced from the Online Shopping Consumer Behavior Dataset available on Kaggle. It has been generated solely for analytical purposes. The full report and analysis can be accessed on GitHub.
+Note: The data used in this report is fictional and sourced from [the Online Shopping Consumer Behavior Dataset available on Kaggle]( https://www.kaggle.com/datasets/thedevastator/online-shopping-consumer-behavior-dataset). It has been generated solely for analytical purposes. The full report and analysis can be accessed on GitHub.
