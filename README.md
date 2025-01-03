@@ -22,7 +22,6 @@
 ---
 
 ## **Project Background**
-[Back to Menu](#table-of-contents)
 
 ### **Company Context**
 Evergreen, established in 2009, is a global company specializing in office equipment sales in Canada via its website and mobile app.
@@ -42,8 +41,10 @@ This analysis provides insights and recommendations in the following domains:
 
 An interactive Power BI dashboard showcasing these insights is available [here](https://app.powerbi.com/reportEmbed?reportId=d6f8ba80-15d9-4cb6-8294-d6fe67e4b544&autoAuth=true&ctid=18a34f25-7887-4c8e-9e8b-1916ddf307d5).
 
-## **Data Structure**
 [Back to Menu](#table-of-contents)
+
+## **Data Structure**
+
 
 The database structure, shown below, is based on a star schema and consists of four **dimensional tables**: Calendar, OrderDates, Products, Customers, as well as one **fact table** (FactOrders), containing a total of 8,399 records. The analysis spans shipped orders between **January 2009 and December 2012**.
 
@@ -53,9 +54,10 @@ The database structure, shown below, is based on a star schema and consists of f
 
 Before starting the analysis, several quality control and data exploration steps were performed using Power Query and Excel. These checks ensured data accuracy and consistency while providing familiarity with the dataset. Details of the quality checks and data validation processes can be found here.
 
+[Back to Menu](#table-of-contents)
 
 ## **Executive Summary**
-[Back to Menu](#table-of-contents)
+
 
 ### **Overview of Findings**
 
@@ -69,9 +71,12 @@ Below is the overview page from PowerBI dashboard and more examples are included
     <img src="Visuals/SalesOverviewPage.png" alt="SalesOverviewPage" width="1000" height="520">
 </div>
 
+[Back to Menu](#table-of-contents)
+
+
 
 ## **Insights Deep Dive**
-[Back to Menu](#table-of-contents)
+
 
 ### **Sales Trends**
 
@@ -100,9 +105,11 @@ Below is the overview page from PowerBI dashboard and more examples are included
 </div>
 
 - Recurring sales patterns in Evergreen demonstrate significant variability, with **peak performance often occurring either in the final quarter or the first quarter of the year**. While end-of-year peaks are typically followed by weaker first quarters, there are also instances where strong first-quarter performance corresponds with a softer preceding fourth quarter. These fluctuations are likely driven by client behaviors such as **tax planning and budget adjustments, particularly among corporate and small business clients**, who may adjust their purchasing strategies based on annual financial results.
+  
+[Back to Menu](#table-of-contents)
 
 ### **Product Performance**
-[Back to Menu](#table-of-contents)
+
 
 <div align="center">
     <img src="Visuals/ProductTrendsOverview.png" alt="Product Trends Overview" width="1000" height="520">
@@ -120,9 +127,10 @@ Below is the overview page from PowerBI dashboard and more examples are included
     <img src="Visuals/ProductCategoriesTable.png" alt="Product Categories Table" width="600" height="400">
 </div>
 
+[Back to Menu](#table-of-contents)
 
 ### **Customer Distribution**
-[Back to Menu](#table-of-contents)
+
 
 <div align="center">
     <img src="Visuals/CustomerTrendsOverview.png" alt="Customer Trends Overview" width="1000" height="520">
@@ -144,8 +152,10 @@ Below is the overview page from PowerBI dashboard and more examples are included
     <img src="Visuals/CustomerSegmentsTable.png" alt="Customer Segments Table" width="600" height="400">
 </div>
 
-### **Regional Comparisons**
 [Back to Menu](#table-of-contents)
+
+### **Regional Comparisons**
+
 
 - **The West region stands out as the top performer, with the highest revenue at $6.4 million**, showing steady growth (7%) and a strong number of orders (2,489). In contrast, **the North region is at the bottom of the list, with only $1.9 million in sales**, a significant decline of 28% in 2012, largely due to poor performance in technology and furniture sectors.
   
@@ -208,8 +218,10 @@ Below is the overview page from PowerBI dashboard and more examples are included
   </tr>
 </table>
 
-## **Recommendations**
 [Back to Menu](#table-of-contents)
+
+## **Recommendations**
+
 
 1. **Product Portfolio Optimization:**
 
@@ -235,8 +247,10 @@ Below is the overview page from PowerBI dashboard and more examples are included
    - Capitalize on the 2012 recovery trend with seasonal promotions and loyalty programs.
    - Investigate the impact of shipping speed and explore expedited delivery options to enhance customer satisfaction.
 
-## **Assumptions and Caveats**
 [Back to Menu](#table-of-contents)
+
+## **Assumptions and Caveats**
+
 
 **Customer Identification:** The surrogate key for customers was initially created based on a combination of customer name, region, province, and segment. However, this approach led to multiple records for a single customer when an order was split across different delivery addresses or included purchases for both business and personal purposes. To address this, a new surrogate key was implemented, merging the customer dimension table with the fact table using a unique row number (rownr) and customer name. This allows for consistent mapping of each line in the fact table to the correct region and segment.
 
@@ -249,3 +263,6 @@ Below is the overview page from PowerBI dashboard and more examples are included
 **Sales Calculation Discrepancies:** It was noted that the formula Unit price * Quantity - Discount + Shipping cost did not always align with the recorded SALES values. Efforts were made to address this inconsistency in the final dataset.
 
 Note: The data used in this report is fictional and sourced from [the Online Shopping Consumer Behavior Dataset available on Kaggle]( https://www.kaggle.com/datasets/thedevastator/online-shopping-consumer-behavior-dataset). It has been generated solely for analytical purposes. The full report and analysis can be accessed on GitHub.
+
+
+[Back to Menu](#table-of-contents)
